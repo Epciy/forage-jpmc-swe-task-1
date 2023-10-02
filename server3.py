@@ -76,6 +76,7 @@ def market(t0=MARKET_OPEN):
 
 
 def orders(hist):
+    
     """ Generates a random set of limit orders (time, side, price, size) from
         a series of market conditions.
     """
